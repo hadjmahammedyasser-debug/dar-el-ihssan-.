@@ -1,0 +1,176 @@
+﻿<!doctype html>
+<html lang="ar" dir="rtl" data-lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دار الإحسان</title>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container header-inner">
+        <nav class="main-nav" aria-label="التنقل الرئيسي">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="#home"><span class="lang-ar">الرئيسية</span><span class="lang-fr">Accueil</span></a></li>
+            <li><a class="nav-link" href="#centers"><span class="lang-ar">مراكزنا</span><span class="lang-fr">Nos centres</span></a></li>
+            <li><a class="nav-link" href="#contact"><span class="lang-ar">اتصل بنا</span><span class="lang-fr">Contact</span></a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <button id="language-toggle" class="header-lang-toggle" type="button" aria-label="Change language">FR</button>
+          <button id="menu-toggle" class="mobile-toggle" type="button" aria-controls="mobile-menu" aria-expanded="false">
+            <i data-lucide="menu"></i>
+            <span class="sr-only">Toggle menu</span>
+          </button>
+        </div>
+      </div>
+      <nav id="mobile-menu" class="mobile-menu" aria-label="التنقل عبر الهاتف">
+        <a class="mobile-link" href="#home"><span class="lang-ar">الرئيسية</span><span class="lang-fr">Accueil</span></a>
+        <a class="mobile-link" href="#centers"><span class="lang-ar">مراكزنا</span><span class="lang-fr">Nos centres</span></a>
+        <a class="mobile-link" href="#contact"><span class="lang-ar">اتصل بنا</span><span class="lang-fr">Contact</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <img src="images/pph.jpg" loading="lazy" class="hero-image" alt="Background">
+        <div class="hero-overlay"></div>
+        <div class="container hero-inner"></div>
+      </section>
+
+      <section id="centers" class="section centers-section">
+        <div class="container section-head">
+          <p class="section-label"><span class="lang-ar">مراكزنا</span><span class="lang-fr">Nos centres</span></p>
+          <h2 class="section-title"><span class="lang-ar">اكتشفوا مراكزنا المتخصصة</span><span class="lang-fr">Découvrez nos centres spécialisés</span></h2>
+          <p class="section-copy"><span class="lang-ar">مواقع الجمعية تضم المركز النفسي البيداغوجي، مركز CAT، ومزرعة بيداغوجية للتكوين المهني.</span><span class="lang-fr">Nos sites comprennent le centre psychopédagogique, le centre CAT et la ferme pédagogique de formation.</span></p>
+        </div>
+
+        <div class="container cards-grid">
+          <article class="center-card">
+            <div class="card-media">
+              <img src="images/main-center.jpg" loading="lazy" alt="Main Headquarters" class="card-image">
+            </div>
+            <div class="card-body">
+              <div class="card-icon"><i data-lucide="home" class="dir-aware"></i></div>
+              <h3 class="card-title"><span class="lang-ar">المركز النفسي البيداغوجي دار الإحسان</span><span class="lang-fr">Centre psychopédagogique Dar El Ihssan</span></h3>
+              <p class="card-text"><span class="lang-ar">جمعية أولياء الأطفال المعاقين ذهنياً، المركز النفسي البيداغوجي دار الإحسان وملحقاته ببلدية العطف، ولاية غرداية. تأسست سنة 1990 بافتتاح أول قسم مكيف خاص بالأشخاص ذوي الإعاقة الذهنية، وأُعيد تأسيس الجمعية سنة 2016 تحت اسم المركز النفسي البيداغوجي دار الإحسان.</span><span class="lang-fr">Association des parents d'enfants handicapés mentaux, le centre psychopédagogique Dar El Ihssan et ses annexes à El Atteuf, Ghardaïa. Fondé en 1990 avec l'ouverture du premier service climatisé pour les personnes en situation de handicap mental, rebaptisé en 2016.</span></p>
+              <a href="https://www.google.com/maps/search/?api=1&query=El+Atteuf+Ghardaia+Algeria" target="_blank" rel="noopener noreferrer" class="card-button">
+                <i data-lucide="map-pin" class="icon dir-aware"></i>
+                <span class="lang-ar">عرض على خرائط</span><span class="lang-fr">Voir sur la carte</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="center-card">
+            <div class="card-media">
+              <img src="images/work-center.jpg" loading="lazy" alt="Work Assistance Center" class="card-image">
+            </div>
+            <div class="card-body">
+              <div class="card-icon"><i data-lucide="briefcase" class="dir-aware"></i></div>
+              <h3 class="card-title"><span class="lang-ar">مركز المساعدة على العمل (CAT)</span><span class="lang-fr">Centre d'aide au travail (CAT)</span></h3>
+              <p class="card-text"><span class="lang-ar">مركز المساعدة على العمل (CAT) مخصص للشباب ذوي الإعاقة الذهنية واضطراب طيف التوحد بعد سن 18 سنة. افتتح سنة 2024 بحي أجماضين، بلدية العطف، ولاية غرداية.</span><span class="lang-fr">Le centre d'aide au travail (CAT) est destiné aux jeunes avec handicap mental et TSA après 18 ans. Ouvert en 2024 à Ajamadjin, El Atteuf, Ghardaïa.</span></p>
+              <a href="https://www.google.com/maps/search/?api=1&query=El+Atteuf+Ghardaia+Algeria" target="_blank" rel="noopener noreferrer" class="card-button">
+                <i data-lucide="map-pin" class="icon dir-aware"></i>
+                <span class="lang-ar">عرض على خرائط</span><span class="lang-fr">Voir sur la carte</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="center-card">
+            <div class="card-media card-media-grid">
+              <img src="images/farm-hydroponic.jpg" loading="lazy" alt="Farm Hydroponic" class="card-image">
+              <img src="images/farm-training.jpg" loading="lazy" alt="Farm Training" class="card-image">
+            </div>
+            <div class="card-body">
+              <div class="card-icon"><i data-lucide="seedling" class="dir-aware"></i></div>
+              <h3 class="card-title"><span class="lang-ar">المزرعة البيداغوجية ومركز التكوين في تربية السماك والزراعة المائية</span><span class="lang-fr">Ferme pédagogique et centre de formation aquacole</span></h3>
+              <p class="card-text"><span class="lang-ar">المزرعة البيداغوجية ومركز التكوين المهني والتمهين لفائدة الأشخاص ذوي الاحتياجات الخاصة في مجال تربية الأسماك والزراعة المائية. افتتح سنة 2023 بحي أسجلاف، بلدية العطف، ولاية غرداية.</span><span class="lang-fr">Ferme pédagogique et centre de formation professionnelle pour les personnes en situation de handicap dans l'aquaculture et l'agriculture hydroponique. Ouvert en 2023 à Asjlaf, El Atteuf, Ghardaïa.</span></p>
+              <a href="https://www.google.com/maps/search/?api=1&query=El+Atteuf+Ghardaia+Algeria" target="_blank" rel="noopener noreferrer" class="card-button">
+                <i data-lucide="map-pin" class="icon dir-aware"></i>
+                <span class="lang-ar">عرض على خرائط</span><span class="lang-fr">Voir sur la carte</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="contact-panel">
+            <div class="contact-panel-header">
+              <p class="section-label"><span class="lang-ar">تواصل معنا</span><span class="lang-fr">Contactez-nous</span></p>
+              <h2 class="section-title"><span class="lang-ar">المركز النفسي البيداغوجي دار الإحسان</span><span class="lang-fr">Centre psychopédagogique Dar El Ihssan</span></h2>
+              <p class="section-copy"><span class="lang-ar">بطاقة الاتصال الرسمية لمؤسستنا، تشمل أرقام الهاتف، البريد الإلكتروني، واتساب، والموقع الجغرافي.</span><span class="lang-fr">Carte de contact officielle de notre institution, avec téléphone, email, WhatsApp et localisation.</span></p>
+            </div>
+
+            <div class="contact-details-grid">
+              <article class="contact-item">
+                <div class="contact-icon"><i data-lucide="phone"></i></div>
+                <h3><span class="lang-ar">الهاتف</span><span class="lang-fr">Téléphone</span></h3>
+                <a class="contact-link" href="tel:+213664421444">0664 42 14 44</a>
+                <a class="contact-link" href="tel:+213550540211">0550 54 02 11</a>
+                <a class="contact-link" href="tel:+213668034147">0668 03 41 47</a>
+                <a class="contact-link" href="tel:+21344444843">0444 44 84 3</a>
+              </article>
+
+              <article class="contact-item">
+                <div class="contact-icon"><i data-lucide="message-circle"></i></div>
+                <h3><span class="lang-ar">واتساب</span><span class="lang-fr">WhatsApp</span></h3>
+                <p class="contact-detail"><span class="lang-ar">للتواصل الفوري عبر واتساب</span><span class="lang-fr">Contact instantané via WhatsApp</span></p>
+                <a class="primary-button" href="https://wa.me/213668034147" target="_blank" rel="noopener noreferrer"><span class="lang-ar">تواصل عبر واتساب</span><span class="lang-fr">Contact via WhatsApp</span></a>
+              </article>
+
+              <article class="contact-item">
+                <div class="contact-icon"><i data-lucide="mail"></i></div>
+                <h3><span class="lang-ar">البريد الإلكتروني</span><span class="lang-fr">Email</span></h3>
+                <a class="contact-link" href="mailto:Cppdarelihcen@gmail.com">Cppdarelihcen@gmail.com</a>
+              </article>
+
+              <article class="contact-item">
+                <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+                <h3><span class="lang-ar">العنوان</span><span class="lang-fr">Adresse</span></h3>
+                <p class="contact-detail"><span class="lang-ar">جمعية أولياء الأطفال المعاقين ذهنياً</span><span class="lang-fr">Association des Parents d'Enfants Handicapés Mentaux</span></p>
+                <p class="contact-detail"><span class="lang-ar">المركز النفسي البيداغوجي دار الإحسان</span><span class="lang-fr">Centre psychopédagogique Dar El Ihssan</span></p>
+                <p class="contact-detail"><span class="lang-ar">حي المعلمين، بلدية العطف</span><span class="lang-fr">Quartier des enseignants, commune d'El Atteuf</span></p>
+                <p class="contact-detail"><span class="lang-ar">ولاية غرداية، الجزائر</span><span class="lang-fr">Wilaya de Ghardaïa, Algérie</span></p>
+                <a class="secondary-button" href="https://www.google.com/maps/search/?api=1&query=El+Atteuf+Ghardaia+Algeria" target="_blank" rel="noopener noreferrer"><span class="lang-ar">عرض الموقع على الخريطة</span><span class="lang-fr">Voir sur la carte</span></a>
+              </article>
+            </div>
+
+            <div class="contact-socials">
+              <a class="social-link" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <i data-lucide="facebook"></i>
+                <div>
+                  <span class="social-name"><span class="lang-ar">فيسبوك</span><span class="lang-fr">Facebook</span></span>
+                  <span class="social-handle"><span class="lang-ar">جمعية أولياء الأطفال المعاقين ذهنياً</span><span class="lang-fr">Association des Parents d'Enfants Handicapés Mentaux</span></span>
+                </div>
+              </a>
+              <a class="social-link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <i data-lucide="instagram"></i>
+                <div>
+                  <span class="social-name"><span class="lang-ar">إنستغرام</span><span class="lang-fr">Instagram</span></span>
+                  <span class="social-handle"><span class="lang-ar">CPP Dar El Ihssan</span><span class="lang-fr">CPP Dar El Ihssan</span></span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-locations">
+          <p>بلدية العطف – ولاية غرداية – الجزائر</p>
+          <p>El Atteuf – Ghardaïa – Algeria</p>
+        </div>
+        <p class="footer-copy">© Association des Parents d'Enfants Handicapés Mentaux – Dar El Ihssan.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

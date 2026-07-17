@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80" role="img" aria-label="شعار دار الإحسان">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0c6aa0" />
+      <stop offset="1" stop-color="#123e73" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="80" rx="12" fill="none"/>
+  <g transform="translate(12,8)">
+    <!-- emblem circle -->
+    <circle cx="28" cy="28" r="28" fill="url(#g)" />
+    <!-- simple house+heart symbol -->
+    <path d="M18 22 L28 14 L38 22 V34 H18 Z" fill="#fff" opacity="0.95" />
+    <path d="M26 24 C25 22 23 22 22 24 C21 26 24 28 26 30 C28 28 31 26 30 24 C29 22 27 22 26 24 Z" fill="#e5c47f" />
+  </g>
+
+  <g transform="translate(72,18)">
+    <text x="0" y="0" font-family="Cairo, Arial, sans-serif" font-size="20" font-weight="700" fill="#123e73">دار الإحسان</text>
+    <text x="0" y="24" font-family="Cairo, Arial, sans-serif" font-size="12" fill="#607086">التكوين · الزراعة البيداغوجية · الدعم الاجتماعي</text>
+  </g>
+</svg>
